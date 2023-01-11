@@ -2,10 +2,26 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+    <Version>1.1.0</Version>
+    <Authors>GitHub @HeyCrab3</Authors>
+    <Company>Crab Studio</Company>
+    <Description>Horizon Launcher 半成品</Description>
+    <PackageProjectUrl>https://heycrab.xyz</PackageProjectUrl>
+    <PackageIcon>QQ图片20220629160217 - Copy.jpg</PackageIcon>
+    <RepositoryUrl>https://github.com/HeyCrab3/HorizonLauncher</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\图片\QQ图片20220629160217 - Copy.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="LitJson" Version="0.18.0" />
